@@ -1,6 +1,6 @@
 FROM ubuntu:latest
 
-RUN useradd -ms /bin/besh john
+RUN useradd -ms /bin/bash john
 
 RUN apt-get update
 

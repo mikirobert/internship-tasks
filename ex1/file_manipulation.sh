@@ -8,7 +8,7 @@ if [ ! -f "$filename" ]; then
 fi
 
 # 1. 
-echo "Home directory: $(pwd)"
+echo "Home directory: $HOME"
 
 # 2. 
 echo -e "\nList of all usernames:"
