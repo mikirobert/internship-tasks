@@ -9,7 +9,7 @@ Am copiat fisierul app.py in imaginea docker
 
 Si am pus ca in momentul in care se ruleaza containerul sa fie rulata comanda (python app.py)
 
-Pentru build-ul imaginii am folosit comanda (docker build -t pythonapp .)
+Pentru build-ul imaginii am folosit comanda (docker build -t pythonapp .) .
 
 Iar pentru rulare am folosit (docker run --rm -it pythonapp).
 
