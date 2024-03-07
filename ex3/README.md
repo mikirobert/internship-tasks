@@ -7,8 +7,10 @@ docker cp company.sql companyDB:/company.sql
 docker exec -it companyDB bash
 
 mysql -u root -p company < /company.sql
+root
 
 mysql -u root -p
+root
 
 USE company
 
@@ -19,6 +21,8 @@ FLUSH PRIVILEGES;
 exit
 
 mysql -u mikirobert -p
+rob1234
+
 
 USE company
 
